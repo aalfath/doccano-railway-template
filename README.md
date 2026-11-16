@@ -1,5 +1,7 @@
 # Doccano on Railway
 
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/doccano?utm_medium=integration&utm_source=button&utm_campaign=doccano)
+
 This repo is the source of the **Doccano** template on Railway. It deploys
 [Doccano](https://github.com/doccano/doccano) **1.8.5**, an open-source text
 annotation tool for building labelled datasets (text classification, sequence
