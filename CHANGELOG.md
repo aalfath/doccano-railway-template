@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.8.5-railway.2 (2026-11-16)
+
+- README: Deploy on Railway button for the published template (code `doccano`). No change to the app or its image.
+
 ## 1.8.5-railway.1 (2026-11-16)
 
 - First release: Doccano 1.8.5 (`doccano/doccano:1.8.5@sha256:04ad3a60c76bca4e134d770119f5489f9cb33ef2c79ea875288e278d4373b872`)
