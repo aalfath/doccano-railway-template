@@ -22,7 +22,7 @@ labelling, sequence-to-sequence, image and audio tasks).
 | Variable | Default | Notes |
 |---|---|---|
 | `ADMIN_USERNAME` | `admin` | Admin user created on the first start |
-| `ADMIN_PASSWORD` | generated secret | Admin password. Read it in the service's **Variables** tab. Changing it later doesn't change the existing user's password (use **Settings** in the UI or `/admin/`) |
+| `ADMIN_PASSWORD` | generated secret | Admin password. Read it in the service's **Variables** tab. Doccano sets the admin's password to this value on every start, so change the password here (and redeploy), not in the UI |
 | `ADMIN_EMAIL` | empty (optional) | Admin's email address; falls back to `admin@example.com` |
 | `SECRET_KEY` | generated secret | Django secret key |
 | `DATABASE_URL` | `${{Postgres.DATABASE_URL}}` | Private-network connection to Postgres |
